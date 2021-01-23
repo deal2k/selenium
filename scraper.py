@@ -1,10 +1,8 @@
 import time 
 from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
 
 print('creating webdriver..')
-
 
 driver = webdriver.Chrome(executable_path='driver/chromedriver')
 

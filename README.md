@@ -35,6 +35,8 @@ for page_num in range(10):
     time.sleep(5)
 ```
 
+![alt text](https://github.com/deal2k/selenium/blob/main/scrape.png?raw=true)
+
 ### Export.py
 After saving scraped data to CSV file, another scipt is used to format data to table. 
 
@@ -61,3 +63,5 @@ with open('companies.csv') as csv_file:
 # create DataFrame
 df = pd.DataFrame(companies).set_index('Number')
 ```
+
+![alt text](https://github.com/deal2k/selenium/blob/main/csv.png?raw=true)
